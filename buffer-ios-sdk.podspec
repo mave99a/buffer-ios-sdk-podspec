@@ -7,7 +7,7 @@ Pod::Spec.new do |s|
   s.homepage = 'https://github.com/bufferapp/buffer-ios-sdk'
   s.license = { :file => 'license.txt', :type => 'Commercial' }
   s.source = {
-    :git => 'https://github.com/bufferapp/buffer-ios-sdk.git',
+    :git => 'https://github.com/mave99a/buffer-ios-sdk-podspec.git',
     :tag => s.version
   }
   s.public_header_files = 'BufferSDK/*.h'
