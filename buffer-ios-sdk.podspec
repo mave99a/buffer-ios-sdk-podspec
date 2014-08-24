@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
     :git => 'https://github.com/mave99a/buffer-ios-sdk-podspec.git',
     :tag => s.version
   }
-  s.public_header_files = 'BufferSDK/*.h'
+  s.source_files = 'BufferSDK/*.h'
   s.preserve_paths = 'BufferSDK/*.a'
   s.resources = 'BufferSDK/BufferSDKResources.bundle'
   s.library = 'BufferSDK'
