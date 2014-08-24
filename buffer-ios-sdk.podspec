@@ -14,6 +14,5 @@ Pod::Spec.new do |s|
   s.preserve_paths = 'BufferSDK/*.a'
   s.resources = 'BufferSDK/BufferSDKResources.bundle'
   s.library = 'BufferSDK'
-  s.xcconfig = { 'OTHER_LDFLAGS' => '-ObjC' }
-
+  s.xcconfig  =  { 'LIBRARY_SEARCH_PATHS' => '"$(PODS_ROOT)/BufferSDK/BufferSDK"' }
 end
