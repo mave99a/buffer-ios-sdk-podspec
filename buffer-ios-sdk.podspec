@@ -1,5 +1,5 @@
 Pod::Spec.new do |s|
-  s.name  = 'Buffer iOS SDK'
+  s.name  = 'BufferSDK'
   s.version = '1.3.2'
   s.platform = :ios
   s.summary = 'Buffer iOS SDK'
