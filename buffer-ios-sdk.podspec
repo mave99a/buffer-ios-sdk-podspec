@@ -1,8 +1,8 @@
 Pod::Spec.new do |s|
-  s.name  = 'CreativeSDK'
+  s.name  = 'Buffer iOS SDK'
   s.version = '1.3.2'
   s.platform = :ios
-  s.summary = 'Adobe Creative SDK'
+  s.summary = 'Buffer iOS SDK'
   s.author = { 'Robert Mao' => 'contact@pixomobile.com' }
   s.homepage = 'https://github.com/bufferapp/buffer-ios-sdk'
   s.license = { :file => 'license.txt', :type => 'Commercial' }
@@ -11,8 +11,9 @@ Pod::Spec.new do |s|
     :tag => s.version
   }
   s.public_header_files = 'BufferSDK/*.h'
-  s.resources = 'AdobeCreativeSDKFoundation.framework/Versions/A/Resources/AdobeCreativeSDKFoundationResources.bundle'
-  s.library = 'c++'
+  s.preserve_paths = 'BufferSDK/*.a'
+  s.resources = 'BufferSDK/BufferSDKResources.bundle'
+  s.library = 'BufferSDK'
   s.xcconfig = { 'OTHER_LDFLAGS' => '-ObjC' }
 
 end
